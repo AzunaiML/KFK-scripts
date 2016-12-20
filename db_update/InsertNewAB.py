@@ -210,7 +210,8 @@ class InsertNewAB(object):
 								 + '\\DAILY_PAY_' + today_m3[0] + '_' + today_m3[1] + '_' \
 								 + today_m3[2] + '.csv'
 
-	@staticmethoddef generate_date(minus_days, last_two_digits_year=False):
+	@staticmethod
+	def generate_date(minus_days, last_two_digits_year=False):
 		today = datetime.datetime.today()
 		target_date = today - datetime.timedelta(days=minus_days)
 		str_year = str(target_date.year)
