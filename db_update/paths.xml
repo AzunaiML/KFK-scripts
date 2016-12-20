@@ -1,0 +1,14 @@
+﻿<root>
+	<was-ab>
+		D:\\AB exchange\\AB update\\были_абсолют.xlsx
+	</was-ab>
+	<ipotheka-machine>
+		D:\AB exchange\Ipotheka_Machine\
+	</ipotheka-machine>
+	<sql-script-destination>
+		D:\\AB exchange\\Ipotheka_Machine\\sql.csv
+	</sql-script-destination>
+	<copy-from>
+		Q:\EDO KF AB\AB_From\Ipoteka_Machine
+	</copy-from>
+</root>
